@@ -48,8 +48,19 @@ Example for Task Deletion
 
 Once the API is defined and validated, implement it in a Web Server using MongoDB and Express.js :
 - Create a controller for Tasks named TaskController
-- For each action (Create, Read, Update, Archive, Delete), create a route bound to the path and method defined in yout API.
+- For each action (Create, Read, Update, Archive, Delete), create a route bound to the path and method defined in your API.
 - Implement each action in the route (write the code in the middleware so that it does what is written in the API).
 
+### API Testing
 
+After the Web Server implementation, you will have to test it using [Postman](https://www.getpostman.com/apps) (or an alternative). The goal is to send requests (Create, Update, Delete, ...) to see if your API is working properly by actually executing the requests (you'll have to verify that tasks are created and such).
 
+### Connecting with the Frond-End
+
+Once you've set-up the Back-End, you will have to connect it to the Frond-End by creating a component able to send AJAX requests to the Back-End.
+Every action on the Frond-End (adding, editing, deleting a task with a form or a button) must affect the Database.
+
+### End results
+
+- A first version of the ToDo list only with Frond-End (using localStorage) from the previous exercice.
+- A second version (for this project) with the Front-End connected to the Back-End.
