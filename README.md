@@ -1,4 +1,4 @@
-# \ _blank: Summary Project
+# \_blank: Summary Project
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Example for Task Deletion
    - HTTP 500
    - No Body
 
-### Implementation
+### Implementation
 
 Once the API is defined and validated, implement it in a Web Server using MongoDB and Express.js :
 - Create a controller for Tasks named TaskController
