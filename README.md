@@ -27,9 +27,9 @@ The ToDo application will communicate with this application using a client-serve
     - Path, Protocol, Request and Response Data for Update
     - Path, Protocol, Request and Response Data for Deletion
   
-Example for Task Deletion
-**Use case** : deletion of an exisiting Task
-**Path** : /tasks/{id}/delete  
+Example for Task Deletion  
+**Use case** : deletion of an exisiting Task  
+**Path** : `/tasks/{id}/delete`  
 **Protocol** : POST  
 **Request Data** :  
  - id {String, required} : the id of the task to delete
