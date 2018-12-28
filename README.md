@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Having Completed the [exercise 8] (https://github.com/blank-project/blank-exercises/tree/master/javascript/lesson8) of the JavaScript lesson.
+Having Completed the [exercise 8](https://github.com/blank-project/blank-exercises/tree/master/javascript/lesson8) of the JavaScript lesson.
 
 ## Features
 
