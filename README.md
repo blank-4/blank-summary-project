@@ -53,7 +53,7 @@ Once the API is defined and validated, implement it in a Web Server using MongoD
 
 ### API Testing
 
-After the Web Server implementation, you will have to test it using [Postman](https://www.getpostman.com/apps) (or an alternative). The goal is to send requests (Create, Update, Delete, ...) to see if your API is working properly by actually executing the requests (you'll have to verify that tasks are created and such).
+After the Web Server implementation, you will have to test it using [Postman](https://www.getpostman.com/apps) (create a free account), or an alternative. The goal is to send requests (Create, Update, Delete, ...) to see if your API is working properly by actually executing the requests (you'll have to verify that tasks are created and such).
 
 ### Connecting with the Frond-End
 
